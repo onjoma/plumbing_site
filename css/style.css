@@ -324,6 +324,91 @@ textarea:focus {
 }
 
 /*------------------------------------*\
+  Services Section
+\*------------------------------------*/
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg) 0;
+}
+
+.service-card {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: var(--transition-base);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  position: relative;
+  padding-top: 60%; /* 3:5 aspect ratio */
+  overflow: hidden;
+}
+
+.card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .card-image img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: var(--spacing-md);
+}
+
+.card-content h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-lg);
+}
+
+.card-content p {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+  color: #666;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: var(--font-size-base);
+}
+
+@media screen and (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: var(--spacing-md) 0;
+  }
+}
+
+/*------------------------------------*\
+  Contact Section
+\*------------------------------------*/
+.contact-section {
+  padding: 4rem 0;
+}
+
+.contact-section .container {
+  background-color: #ccc;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/*------------------------------------*\
   Footer
 \*------------------------------------*/
 #footer {
