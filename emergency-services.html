@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Emergency Plumbing Services - 24/7 emergency plumbing solutions for your home and business" />
+    <meta name="theme-color" content="#c01f28" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .article-section {
+        padding: 4rem 0;
+      }
+
+      .service-section {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        padding: 3rem 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .service-section:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      .service-content {
+        flex: 1;
+      }
+
+      .service-image {
+        flex: 1;
+        max-width: 500px;
+      }
+
+      .service-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+      }
+
+      .service-content h2 {
+        color: #1a237e;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+      }
+
+      .service-content ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .service-content ul li {
+        margin: 0.8rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .service-content ul li:before {
+        content: "•";
+        color: #c01f28;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+
+      .emergency-contact-info {
+        background: linear-gradient(135deg, #c01f28 0%, #8b0000 100%);
+        color: white;
+        padding: 3rem;
+        border-radius: 10px;
+        margin-top: 3rem;
+        text-align: center;
+      }
+
+      .emergency-contact-info h2,
+      .emergency-contact-info p {
+        color: white;
+      }
+
+      .emergency-phone {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 25px;
+        display: inline-block;
+        margin: 1rem 0;
+        transition: all 0.3s ease;
+      }
+
+      .emergency-phone:hover {
+        background: white;
+        color: #c01f28;
+      }
+
+      @media (max-width: 768px) {
+        .service-section {
+          flex-direction: column !important;
+          padding: 2rem 0;
+        }
+
+        .service-image {
+          max-width: 100%;
+        }
+      }
+    </style>
+    <title>Emergency Plumbing Services - Karibu Plumbing</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="top-header">
+          <a href="/" class="logo">
+            <i class="far fa-tools fa-3x" aria-hidden="true"></i>
+            <span class="visually-hidden">Karibu Plumbing</span>
+          </a>
+          <address class="location">
+            <i class="fal fa-map-marker-alt fa-2x" aria-hidden="true"></i>
+            <span>56 Jambo St. New York, NY</span>
+          </address>
+          <div class="contact">
+            <i class="fas fa-phone-office fa-2x" aria-hidden="true"></i>
+            <a class="phone-call" href="tel:0710888000">0710-888-000</a>
+          </div>
+        </div>
+        <nav class="navbar" aria-label="Main navigation">
+          <ul class="nav-items">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="article-section">
+        <div class="container">
+          <h1>Emergency Plumbing Services</h1>
+          <p class="lead">Available 24/7 for all your emergency plumbing needs. Our expert team responds quickly to minimize damage and restore your plumbing system.</p>
+          
+          <div class="service-section">
+            <div class="service-content">
+              <h2>Burst Pipe Emergency Services</h2>
+              <p>Our burst pipe emergency service provides immediate response to prevent water damage to your property. We understand that a burst pipe can cause significant damage in a short time, which is why we prioritize these emergencies.</p>
+              <ul>
+                <li>Immediate water shut-off and damage control</li>
+                <li>Advanced leak detection technology</li>
+                <li>Professional pipe repair and replacement</li>
+                <li>Water damage assessment and prevention advice</li>
+              </ul>
+            </div>
+            <div class="service-image">
+              <img src="images/Emergency Plumbing Services.webp" alt="Emergency burst pipe repair service" />
+            </div>
+          </div>
+
+          <div class="service-section">
+            <div class="service-content">
+              <h2>Emergency Drain Clearing</h2>
+              <p>When you're facing a severe drain clog that requires immediate attention, our emergency drain clearing service is here to help. We use professional-grade equipment and techniques to resolve any blockage quickly and effectively.</p>
+              <ul>
+                <li>High-pressure water jetting services</li>
+                <li>CCTV drain inspection for accurate diagnosis</li>
+                <li>Root removal and prevention</li>
+                <li>Complete drain system cleaning</li>
+              </ul>
+            </div>
+            <div class="service-image">
+              <img src="images/Leak Detection Repair.webp" alt="Professional drain clearing service" />
+            </div>
+          </div>
+
+          <div class="service-section">
+            <div class="service-content">
+              <h2>Sewer Backup Emergency Response</h2>
+              <p>Sewer backups are serious health hazards that require immediate professional attention. Our emergency response team is equipped to handle these situations safely and effectively.</p>
+              <ul>
+                <li>Emergency sewer line clearing</li>
+                <li>Backup cleanup and sanitization</li>
+                <li>Preventive maintenance plans</li>
+                <li>Sewer line repair and replacement</li>
+              </ul>
+            </div>
+            <div class="service-image">
+              <img src="images/Emergency Plumbing Services.webp" alt="Emergency sewer backup response" />
+            </div>
+          </div>
+
+          <div class="service-section">
+            <div class="service-content">
+              <h2>Water Heater Emergency Services</h2>
+              <p>Don't let a failed water heater disrupt your daily routine. Our emergency water heater service covers all types of water heater problems, from leaks to complete system failures.</p>
+              <ul>
+                <li>24/7 emergency repairs</li>
+                <li>Same-day replacement options</li>
+                <li>Comprehensive system diagnosis</li>
+                <li>Preventive maintenance services</li>
+              </ul>
+            </div>
+            <div class="service-image">
+              <img src="images/Leak Detection Repair.webp" alt="Emergency water heater repair service" />
+            </div>
+          </div>
+
+          <div class="emergency-contact-info">
+            <h2>Contact Us for Emergency Service</h2>
+            <p>For immediate assistance with any plumbing emergency, call us at</p>
+            <a href="tel:0710888000" class="emergency-phone">0710-888-000</a>
+            <p>Our emergency response team is available 24/7, including holidays. We prioritize emergency calls and aim to reach your location as quickly as possible to prevent further damage to your property.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="about-us">
+            <h2 class="fw-heading">About Us</h2>
+            <div class="line-bottom"></div>
+            <div class="content">
+              <p>Award winning plumbing company with over 5 years experience. Providing a wide range of services.</p>
+              <div class="social">
+                <a href="#" aria-label="Follow us on Facebook">
+                  <i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="#" aria-label="Follow us on Twitter">
+                  <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href="#" aria-label="Follow us on Instagram">
+                  <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-us">
+            <h2 class="fw-heading">Contact Us</h2>
+            <div class="line-bottom"></div>
+            <div class="content">
+              <address>
+                <ul>
+                  <li>56 Jambo St. New York, NY</li>
+                  <li><a href="tel:+16462611756">+1 646-261-1756</a></li>
+                  <li><a href="mailto:help@karibuplumbing.com">help@karibuplumbing.com</a></li>
+                </ul>
+              </address>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h2 class="fw-heading">Quick Links</h2>
+            <div class="line-bottom"></div>
+            <nav aria-label="Footer navigation">
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="open-hours">
+            <h2 class="fw-heading">Opening Hours</h2>
+            <div class="line-bottom"></div>
+            <div class="content">
+              <ul>
+                <li>M-F: 8AM - 5PM</li>
+                <li>Sat: 10AM - 4PM</li>
+                <li>Sun: Closed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
